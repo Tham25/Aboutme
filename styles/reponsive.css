@@ -1,0 +1,89 @@
+
+/*Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .container__content {
+        max-width: 576px;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    
+    .container__content {
+        max-width: 760px;
+    }
+
+    /* chuyen */
+    .row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .column-right {
+        margin-top: 0;   
+    }
+
+    .project-item {
+        width: calc(50% - calc(2*var(--margin-item)));
+    }
+
+    .controls-wrapper {
+        right: var(--position-right-btn);
+        top: 300px;
+        width: var(--btn-icon-size);
+        background-color: transparent;
+    }
+
+    .btn-controls-wrapper {
+        display: block;
+    }
+
+    .btn-controls-wrapper .btn-control {
+        margin-right: 0;
+        margin-bottom: 12px;
+    }
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .container__content {
+        max-width: 980px;
+    }
+
+    :root {
+        --text-size: 18px;
+        --text-line-height: 32px;
+        --text-header-size: 48px;
+        --text-title-size: 32px;
+    }
+
+    .project-item {
+        width: calc(33.33% - calc(2*var(--margin-item)));
+    }
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .container__content {
+        max-width: 1024px;
+    }
+
+    :root {
+        --position-right-btn: 48px;
+        --btn-icon-size: 48px;
+        --icon-size: 22px;
+    }
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+    .container__content {
+        max-width: 1280px;
+    }
+
+    .project-item {
+        width: calc(25% - calc(2*var(--margin-item)));
+    }
+}
+
+
