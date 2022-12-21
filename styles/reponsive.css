@@ -1,3 +1,13 @@
+/*Small devices (landscape phones, 360px and down) */
+@media (max-width: 360px) {
+    .container__content {
+        max-width: 576px;
+    }
+
+    .contact-list {
+        padding: 0 16px;
+    }
+}
 
 /*Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -38,8 +48,7 @@
     }
 
     .btn-controls-wrapper .btn-control {
-        margin-right: 0;
-        margin-bottom: 12px;
+        margin: 12px 0;
     }
 
 }

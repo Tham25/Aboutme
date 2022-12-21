@@ -154,6 +154,6 @@ section {
 }
 
 .btn-controls-wrapper .btn-control {
-    margin-right: 24px;
+    margin: 0 12px;
     text-decoration: none;
 }
