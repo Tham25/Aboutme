@@ -3,13 +3,14 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
 }
 
 .top-banner__image > img {
     width: 100%;
     height: 100%;
+    max-width: 360px;
     object-fit: contain;
+    border-radius: 50%;
 }
 
 .top-banner__text {
@@ -93,6 +94,7 @@
     border-left: 1px solid var(--color-secondary);
     padding-left: var( --pl-timeline-item);
     margin-bottom: 32px;
+    height: 150px;
 }
 
 .timeline-icon {
@@ -195,6 +197,7 @@
 }
 
 .project-item {
+    width: 100%;
     border: 1px solid #ccc;
     border-radius: 10px;
     overflow: hidden;
@@ -235,6 +238,7 @@
 
 .project-item__descr {
     position: relative;
+    height: 100%;
     padding: 24px;
     background-color: var(--color-secondary);
 }

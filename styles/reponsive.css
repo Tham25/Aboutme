@@ -90,9 +90,6 @@
         max-width: 1280px;
     }
 
-    .project-item {
-        width: calc(25% - calc(2*var(--margin-item)));
-    }
 }
 
 
