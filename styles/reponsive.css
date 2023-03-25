@@ -33,7 +33,7 @@
     }
 
     .project-item {
-        width: calc(50% - calc(2*var(--margin-item)));
+        width: calc(100% - calc(2*var(--margin-item)));
     }
 
     .controls-wrapper {
@@ -67,7 +67,7 @@
     }
 
     .project-item {
-        width: calc(33.33% - calc(2*var(--margin-item)));
+        width: calc(50% - calc(2*var(--margin-item)));
     }
 }
 
