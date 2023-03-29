@@ -61,26 +61,6 @@
     margin-bottom: 32px;
 }
 
-.about-title {
-    color: var(--color-text-header);
-    font-size: var(--text-title-size);
-    padding: 32px 0;
-    display: flex;
-    justify-content: center;
-    position: relative;
-}
-
-.about-title::before {
-    content: "";
-    position: absolute;
-    left: 50%;
-    top: 0;
-    width: 40%;
-    height: 1px;
-    background-color: gray;
-    transform: translateX(-50%);
-}
-
 .about-timeline {
     --pl-timeline-item: 48px;
 }
